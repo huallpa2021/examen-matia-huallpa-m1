@@ -1,0 +1,77 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Globales */
+.contenedor {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+/* Flex Box*/
+
+.primer {
+  padding-top: 6.5rem;
+  margin-bottom: 8.5rem;
+}
+
+.columnas-flex {
+  display: flex;
+  gap: 7.8rem;
+}
+
+.columnas img {
+  width: 40rem;
+}
+/* segundo */
+
+.dos-columnas-flex {
+  display: flex;
+  gap: 4.7rem;
+}
+
+.dos-columna img {
+  width: 58rem;
+}
+
+/* Hero */
+
+.agenda {
+  margin-bottom: 9.6rem;
+}
+.agenda-1 {
+  padding-top: 9.6rem;
+}
+
+.primer-1 {
+  padding-top: 8.4rem;
+  margin-bottom: 8.5rem;
+  background-color: #46599c;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7.4rem;
+}
+.hero-imagenes img {
+  width: 40rem;
+}

@@ -1,0 +1,66 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Globales */
+.contenedor {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  margin: 1.9rem 2.8rem 2rem 2.5rem;
+  color: #3b4754;
+  font-size: 1.8rem;
+}
+
+/* Header */
+
+.header-flex {
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f8f8;
+  justify-items: center;
+}
+
+.logo img {
+  width: 10rem;
+}
+
+.redes {
+  display: flex;
+  gap: 1.9rem;
+  background-color: #f0f0f0;
+}
+
+.redes img {
+  width: 3rem;
+}
+
+button {
+  display: block;
+  padding: 1.6rem 6.5rem;
+  background-color: #4a894c;
+  color: #ffffff;
+  font-size: 2rem;
+}

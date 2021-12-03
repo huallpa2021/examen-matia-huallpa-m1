@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Open Sans", sans-serif;
+  background-color: rgba(99, 54, 54, 0.493);
+}
+
+/* Globales */
+.contenedor {
+  max-width: 64.7rem;
+  margin: 0 auto;
+}
+
+/* Section Container*/
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+
+.images-1 {
+  grid-row: 1 / 4;
+}
+
+.images-2 {
+  grid-row: 4 / -1;
+}
+.grid {
+  display: grid;
+}
+
+.images-3 {
+  grid-row: 1 / 3;
+}
